@@ -1,4 +1,12 @@
 {
+    "name": "tdd-example-project",
+    "description": "A simple project to introduce you to the principles of Test-Driven Development",
+    "version": "0.0.0",
+    "main": "./index",
+    "devDependencies": {
+        "chai": "*",
+        "mocha": "*"
+    },
     "scripts": {
         "test": "mocha --reporter spec --recursive"
     }
