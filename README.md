@@ -1,4 +1,4 @@
-# TDD Example
+# TDD Example [![Build Status](https://travis-ci.org/riggerthegeek/tdd-example.png?branch=master)](https://travis-ci.org/riggerthegeek/tdd-example)
 
 This project is to help you get an understanding of the principles of Test-Driven
 Development and Continuous Integration.
@@ -19,5 +19,10 @@ Development and Continuous Integration.
  1. On your IDE screen, you will see a terminal.  In that, type `npm install`.  This will install your dependencies (such as Mocha and Chai testing frameworks).
  2. To run the test framework, you need only type `npm test`.  This will run all your Unit Tests and output the result.
 
+### TDD Task
+Now you're set up, you can begin looking at the [TDD Kata](http://osherove.com/tdd-kata-1). At time of writing, this is at section 3.1 (allowing the numbers to be split by commas and newlines).
+
 ## Useful Apps
- * [Rubular](http://rubular.com/) - regex testing
+ * [Cloud9](https://c9.io) - cloud development environment (IDE)
+ * [Rubular](http://rubular.com) - regex testing
+ * [TravisCI](http://travis-ci.org) - continuous integration environment
