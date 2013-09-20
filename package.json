@@ -16,6 +16,6 @@
         "url": "https://github.com/riggerthegeek/tdd-example.git"
     },
     "scripts": {
-        "test": "jshint ./ && mocha"
+        "test": "mocha"
     }
 }

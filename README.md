@@ -25,4 +25,5 @@ Now you're set up, you can begin looking at the [TDD Kata](http://osherove.com/t
 ## Useful Apps
  * [Cloud9](https://c9.io) - cloud development environment (IDE)
  * [Rubular](http://rubular.com) - regex testing
+ * [Rules of Test-Driven Development)[http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd] - how we do TDD properly
  * [TravisCI](http://travis-ci.org) - continuous integration environment

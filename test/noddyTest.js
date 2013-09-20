@@ -46,5 +46,37 @@ describe("Our noddy test", function() {
         
     });
     
+    it('should allow us to specify the delimiter', function(done) {
+        
+        expect(objNumHandler.add("//;\n1;2")).to.be.equal(3);
+        
+        done();
+        
+    });
+    
+    it('should throw an error when receiving negative numbers', function(done) {
+        
+        var fn = function() {
+            objNumHandler.add('-1');
+        };
+        
+        expect(fn).to.throw('negatives not allowed -1');
+        
+        done();
+        
+    });
+    
+    it('should throw an error when receiving multiple negative numbers', function(done) {
+        
+        var fn = function() {
+            objNumHandler.add('-1,-2');
+        };
+        
+        expect(fn).to.throw('negatives not allowed -1,-2');
+        
+        done();
+        
+    });
+    
     
 });
