@@ -16,7 +16,7 @@ describe("Our noddy test", function() {
     
     it('should accept one input', function(done) {
         
-        expect(objNumHandler.add('1')).to.be.equal(12);
+        expect(objNumHandler.add('1')).to.be.equal(1);
         
         done();
         
